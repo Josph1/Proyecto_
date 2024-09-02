@@ -1,0 +1,119 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #3a7bd5, #3a6073);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+#title-container {
+    text-align: center;
+    padding-top: 2em;
+    margin-bottom: 1em;
+}
+
+#main-title {
+    color: #fff;
+    font-size: 3em;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px #000;
+}
+
+#form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2em;
+}
+
+#form-inputs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+}
+
+form label, form select, form input[type="number"] {
+    color: #fff;
+    background: #0e1522;
+    border: none;
+    padding: 0.5em;
+    border-radius: 5px;
+    font-size: 1.1em;
+}
+
+form input[type="submit"] {
+    display: block;
+    margin: 1em auto;
+    padding: 0.5em 2em;
+    background: #3a6073;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+form input[type="submit"]:hover {
+    background: #d2d53a;
+    color: #000;
+}
+
+.chart-container {
+    width: calc(100% - 10em);
+    height: 800px;
+    margin: 1em auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: #fff;
+    padding: 1em;
+}
+
+#yearly-averages {
+    margin: 2em auto;
+    max-width: 800px;
+    text-align: center;
+}
+
+#yearly-averages h3 {
+    text-align: center;
+    font-size: 1.8em;
+    color: #fff;
+    margin-bottom: 0.5em;
+}
+
+#yearly-averages ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#yearly-averages li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5em 1em;
+    background-color: #3f3e3d;
+    border-radius: 5px;
+    margin: auto;
+    margin-bottom: 0.5em;
+    color: #fff;
+    width: 180px
+}
+
+#yearly-averages li:last-child {
+    margin-bottom: 0;
+}
+
+#yearly-averages li span {
+    font-weight: bold;
+}
+
+#yearly-averages p {
+    text-align: center;
+    font-size: 1.2em;
+    color: #fff;
+    margin-top: 1em;
+}
